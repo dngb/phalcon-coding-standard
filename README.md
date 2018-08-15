@@ -5,6 +5,8 @@ with slight modifications.
 
 _Important note:_ Please be careful using this library, as it is for internal usage, and probably will not be maintained
 
+Project fork from: (https://github.com/karen-nalbandian/phalcon-coding-standard)
+
 ## Differences
 
 The following standards has been modified:
