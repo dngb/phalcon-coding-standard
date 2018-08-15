@@ -20,6 +20,7 @@ The following standards has been modified:
 - removed the Zend.NamingConventions.ValidVariableName.ContainsNumbers
 - removed the Zend.NamingConventions.ValidVariableName.MemberVarContainsNumbers
 - removed the Zend.NamingConventions.ValidVariableName.NotCamelCaps
+- removed the Generic.Files.LineEndings.InvalidEOLChar
 
 ## Installation
 
