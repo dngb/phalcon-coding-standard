@@ -32,11 +32,11 @@ This standard can be installed with the [Composer](https://getcomposer.org/) dep
 
 2. Install the coding standard as a dependency of your project
 
-        composer require --dev karen-nalbandian/phalcon-coding-standard:dev-master
+        composer require --dev dngb/phalcon-coding-standard:dev-master
 
 3. Add the coding standard to the PHP_CodeSniffer install path
 
-        vendor/bin/phpcs --config-set installed_paths vendor/karen-nalbandian/phalcon-coding-standard
+        vendor/bin/phpcs --config-set installed_paths vendor/dngb/phalcon-coding-standard
 
 4. Check the installed coding standards for "Phalcon"
 
@@ -52,7 +52,7 @@ This standard can be installed with the [Composer](https://getcomposer.org/) dep
 
 2. Checkout this repository
 
-        git clone https://github.com/karen-nalbandian/phalcon-coding-standard.git
+        git clone https://github.com/dngb/phalcon-coding-standard.git
 
 3. Add the coding standard to the PHP_CodeSniffer install path
 
