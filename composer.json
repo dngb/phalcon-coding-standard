@@ -1,0 +1,26 @@
+{
+  "name": "karen-nalbandian/phalcon-coding-standard",
+  "version": "1.0.2",
+  "type": "coding-standard",
+  "description": "CodeSniffer ruleset for the Phalcon coding standard (PCG Cube flavor)",
+  "keywords": [
+    "PCG Cube",
+    "Phalcon PHP",
+    "coding standard",
+    "phpcs"
+  ],
+  "homepage": "https://github.com/karen-nalbandian/phalcon-coding-standard",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Karén Nalbandian (PCG Cube)",
+      "email": "pcguard@gmail.com"
+    }
+  ],
+  "require": {
+    "squizlabs/php_codesniffer": "3.*"
+  },
+  "conflict": {
+    "squizlabs/php_codesniffer": "<3 || >=4"
+  }
+}
