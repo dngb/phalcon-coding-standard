@@ -51,6 +51,8 @@
         
         <!-- EOL exclude -->
         <exclude name="Generic.Files.LineEndings.InvalidEOLChar"/>
+        
+        <exclude name="Phalcon.Whitespace.DiscourageFitzinator.Invalid"/>
     </rule>
 
     <!-- Don't enforce Zend's private member underscores -->
@@ -126,10 +128,6 @@
     </rule>
 
     <rule ref="Phalcon.Commenting.FunctionComment.SpacingAfterParamType">
-        <severity>0</severity>
-    </rule>
-
-    <rule ref="Phalcon.Whitespace.DiscourageFitzinator.Invalid">
         <severity>0</severity>
     </rule>
     
