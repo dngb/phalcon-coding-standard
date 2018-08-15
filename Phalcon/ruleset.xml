@@ -49,8 +49,8 @@
         <!-- covered by Squiz FunctionDeclarationSniff -->
         <exclude name="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
         
-        <!-- exclude Zend Camel Caps -->
-        <exclude name="Zend.NamingConventions.ValidVariableName.NotCamelCaps"/>
+        <!-- EOL exclude -->
+        <exclude name="Generic.Files.LineEndings.InvalidEOLChar"/>
     </rule>
 
     <!-- Don't enforce Zend's private member underscores -->
@@ -65,7 +65,10 @@
     <rule ref="Zend.NamingConventions.ValidVariableName.MemberVarContainsNumbers">
         <severity>0</severity>
     </rule>
-
+    <rule ref="Zend.NamingConventions.ValidVariableName.NotCamelCaps">
+        <severity>0</severity>
+    </rule>
+    
     <!-- In practice, Phalcon spaces multiline function calls differently than Zend -->
     <rule ref="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket">
         <severity>0</severity>
@@ -126,6 +129,10 @@
         <severity>0</severity>
     </rule>
 
+    <rule ref="Phalcon.Whitespace.DiscourageFitzinator.Invalid">
+        <severity>0</severity>
+    </rule>
+    
     <rule ref="Squiz.Strings.ConcatenationSpacing.PaddingFound">
         <severity>0</severity>
     </rule>
